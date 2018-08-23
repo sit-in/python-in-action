@@ -14,9 +14,5 @@
 
 7. 关注代码复杂度 flake8
 
-推荐：Flake8、yapf
-
-
-
-
+推荐：Flake8、yapf，
 
