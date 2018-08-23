@@ -1,12 +1,6 @@
-4. setup.py
-
-关注代码复杂度 flake8
-
 
 
 代码质量保证工具
-
-
 
 1. Pycodestyle
 
@@ -19,4 +13,8 @@
 5. Flake8
 
 6. autopep8
+
+7. 关注代码复杂度 flake8
+
+
 
