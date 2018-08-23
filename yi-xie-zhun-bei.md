@@ -1,0 +1,6 @@
+pip
+
+~~vagrant~~
+
+docker
+
