@@ -2,7 +2,6 @@
 
 1. tox
 2. mock
-3. pytest
-4. unittest
+3. pytest/unittest
 5. coverage
 
