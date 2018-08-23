@@ -1,14 +1,14 @@
-服务部署
+# Web应用需要处理
 
-缓存
+* 服务部署nginx + supervisor + \(uwsgi/gunicorn\) + flask/django/tornado
 
-高可用
+* 缓存
 
-负载均衡
+* 高可用
 
-集群
+* 负载均衡
+
+* 集群
 
 
-
-nginx + supervisor + \(uwsgi\) + flask/django/tornado 
 

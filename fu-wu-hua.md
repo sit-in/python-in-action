@@ -1,4 +1,7 @@
-thirft
+# 微服务的一些思考实践
 
-grpc
+1. thirft
+2. grpc
+
+
 
