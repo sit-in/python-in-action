@@ -3,7 +3,8 @@
 1. Vim、Pycharm
 2. Pip  ~~vagrant~~
 3. Docker
-
+4. Git
+5. 
 
 
 
