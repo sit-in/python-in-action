@@ -4,7 +4,7 @@
 2. Pip  ~~vagrant~~
 3. Docker(docker hub主要区别开发和线上）
 4. Git
-5. 
+
 
 
 
