@@ -4,5 +4,5 @@
 
 Gevent，tornado，ayncio
 
-对比golang，nodejs
+golang，nodejs
 
