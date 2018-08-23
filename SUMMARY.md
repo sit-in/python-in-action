@@ -12,7 +12,8 @@
 * [高级用法](gao-ji-yong-fa.md)
 * [Web开发最佳实践](webkai-fa-zui-jia-shi-jian.md)
   * [实战篇](webkai-fa-zui-jia-shi-jian/shi-zhan-pian.md)
-  * [项目目录结构](webkai-fa-zui-jia-shi-jian/wang-zhan-mu-lu-jie-gou.md)
+  * [项目目录结构规范](webkai-fa-zui-jia-shi-jian/wang-zhan-mu-lu-jie-gou.md)
   * [模块化](mo-kuai-hua.md)
+  * [调试技巧](webkai-fa-zui-jia-shi-jian/diao-shi-ji-qiao.md)
   * [质量管理](zhi-liang-guan-li.md)
 
