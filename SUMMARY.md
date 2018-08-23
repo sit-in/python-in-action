@@ -14,7 +14,7 @@
 * [QA](qa.md)
 * [Web开发最佳实践](webkai-fa-zui-jia-shi-jian.md)
   * [项目目录结构规范](webkai-fa-zui-jia-shi-jian/wang-zhan-mu-lu-jie-gou.md)
-  * 编码规范
+  * [编码规范](webkai-fa-zui-jia-shi-jian/bian-ma-gui-fan.md)
   * [模块化开发](mo-kuai-hua.md)
   * [调试技巧](webkai-fa-zui-jia-shi-jian/diao-shi-ji-qiao.md)
   * [质量管理](zhi-liang-guan-li.md)
