@@ -1,12 +1,14 @@
-Supervisor
+# 高效率保证服务运行
 
-Fabric/Ansible
+1. Supervisor
 
-Sentry收集错误信息
+2. Fabric/Ansible
 
-监控系统搭建（API监控，服务器监控）
+3. Sentry收集错误信息
 
-集中式日志收集
+4. 监控系统搭建（API监控，服务器监控）
 
-服务发现容器化编排
+5. 集中式日志收集
+
+6. 服务发现容器化编排
 

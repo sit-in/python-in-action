@@ -1,8 +1,4 @@
-nsq
+# 消息队列
 
-cmq
-
-kafaka
-
-Celery
-
+1. nsq/cmq/kafaka
+2. Celery/celery beat
