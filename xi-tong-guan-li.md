@@ -15,7 +15,9 @@
 
 ## Supervisor
 ```shell
-1. pip install supervisor # 做service 启动程序
+1. pip install supervisor # 可以通过sh做service 启动程序，避免启动失效
+
+# supervisord.conf
 
 [unix_http_server]
 file=/tmp/supervisor.sock   ; (the path to the socket file)
@@ -37,7 +39,7 @@ pidfile=/data/supervisord.pid
 [program:XXXX]
 process_name=v2-XXX-%(process_num)s
 command=python server.py --port=%(process_num)s  # tornado
-directory=/code
+directory=/code  # 这儿在docker容器目录
 autostart = true
 autorestart=true
 stopasgroup=true
@@ -47,16 +49,21 @@ stopwaitsecs=1
 stdout_logfile = /data/log/stdout-%(program_name)s.log
 stderr_logfile = /data/log/stderr-%(program_name)s.log
 stderr_logfile_maxbytes = 20MB
-numprocs=30
+numprocs=10 # 启动多少个
 numprocs_start=9527
 
-
 ```
+[使用 supervisor 管理进程 - 李林克斯](http://liyangliang.me/posts/2015/06/using-supervisor/)
 
+## Fabric/Ansible/Salt
 
+[运维管理工具的对比Puppet、Chef、Ansible和SaltStack、Fabric - CSDN博客](https://blog.csdn.net/zzq900503/article/details/80143740)
 
+1. Fabric发布版本，自动化精简输入指令 类似Makefile(shell 能做 Python）
+2. 机器多，需要控制建议使用 ansible 发布版本初始化服务器，成本比Fabric高一些
 
+## Sentry
 
-
+[使用docker-compose运行错误收集工具Sentry | Pegasus' Blog](http://ningning.today/2016/10/18/python/docker-sentry/)
 
 
