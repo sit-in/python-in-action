@@ -2,7 +2,7 @@
 
 1. Supervisor
 
-2. Fabric/Ansible
+2. Fabric/Ansible/Salt stack
 
 3. Sentry收集错误信息
 

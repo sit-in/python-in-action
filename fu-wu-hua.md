@@ -4,7 +4,7 @@
 
 1. thirft
 2. grpc
-3. 服务化 sentry，push，sso，kids，filebeat，docker hub 
+3. 服务化 sentry，push，sso，kids，filebeat，docker hub
 
 
 

@@ -1,8 +1,8 @@
 # Summary
 
 * [简介](README.md)
-* [web开发框架介绍](chapter1.md)
 * [开发前一些准备](yi-xie-zhun-bei.md)
+* [web开发框架介绍](chapter1.md)
 * [网站架构](wang-zhan-jia-gou.md)
 * [系统管理](xi-tong-guan-li.md)
 * [测试和持续集成](ce-shi-he-chi-xu-ji-cheng.md)
