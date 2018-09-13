@@ -1,4 +1,4 @@
-# 开发规范
+# 工作流
 
 1. Web开发工作流（规范-协作-优先级）
 
@@ -7,7 +7,7 @@
 2. code review
 
    * 两个及以上小伙伴评审 cube 
-   * 一些推荐资料：『编写可读性代码的艺术』，「code clean」
+   * 一些推荐资料「the art of readable code」，「clean code」
 
 3. 项目发布流程
 
