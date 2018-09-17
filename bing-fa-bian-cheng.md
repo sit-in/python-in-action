@@ -14,9 +14,9 @@ grequests = gevent + requests
 >
 > resp = grequests.imap\(rese\_futreues, size=100\)
 
-Tornado：1.  事件循环全局时间 2. 更智能进行分配资源和复用链接（内建立100并发信号量）
+Tornado： 1.  事件循环全局时间 2. 更智能进行分配资源和复用链接（内建立100并发信号量）
 
-Gevent：1. 事件循环在iwait 函数才运行 2. 自己控制调整
+Gevent：   1. 事件循环在iwait 函数才运行 2. 自己控制调整
 
 Asyncio： 1. 更底层 yield from （不需要通过raise来进行返回值）同Gevent通过信号量进行限制请求数
 
