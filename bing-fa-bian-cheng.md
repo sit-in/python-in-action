@@ -20,7 +20,9 @@ Gevent：1. 事件循环在iwait 函数才运行 2. 自己控制调整
 
 Asyncio： 1. 更底层 yield from （不需要通过raise来进行返回值）同Gevent通过信号量进行限制请求数
 
-IO密集+CPU密集 ==》 多进程来处理IO，避免影响CPU计算
+例子：IO密集+CPU密集 ==》 多进程来处理IO，避免影响CPU计算
+
+计算数据是否是素数并且存入数据库：
 
 ![](/assets/io_nonio.png)
 
