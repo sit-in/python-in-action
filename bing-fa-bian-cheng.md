@@ -6,7 +6,7 @@
 
 异步编程：限制请求的链接数，过多会导致CPU上下文切换过于频繁，过少会导致IO等待时间过长
 
-grequests = gevent + requests  
+grequests = gevent + requests
 
 串行requests爬虫和并行爬虫grequests区别（100并发 70倍看机器性能）
 
@@ -20,9 +20,7 @@ Gevent：1. 事件循环在iwait 函数才运行 2. 自己控制调整
 
 Asyncio： 1. 更底层 yield from （不需要通过raise来进行返回值）同Gevent通过信号量进行限制请求数
 
-IO密集+CPU密集
-
-
+IO密集+CPU密集 ==》 多进程来处理IO，避免影响CPU计算
 
 ![](/assets/io_nonio.png)
 
@@ -43,8 +41,6 @@ IO密集+CPU密集
 ## 多进程
 
 ## 异步对比
-
-
 
 ## 爬虫
 
