@@ -14,8 +14,8 @@
 
 3. Gevent，tornado，ayncio
 
-4. golang，nodejs对比   https://time.geekbang.org/column/article/693
-
+4. golang，nodejs 异步方式 [https://time.geekbang.org/column/article/693](https://time.geekbang.org/column/article/693) 
+[swagger-api/swagger-node: Swagger module for node.js](https://github.com/swagger-api/swagger-node)
 5. 爬虫
 
 ## 多线程
@@ -24,7 +24,7 @@
 
 1. Python 大部分是使用 C 语言编写的，一些标准库和第三方的模块也是用 C 编写的，而 C 语言代码是可以获取和释放 GIL 的，这在一定程度上缓解了 GIL 的问题。一些重要的、需要更高运行效率的模块还可以使用 C 语言编写，这样就可以利用更多的 CPU资源。
 
-    2. 多线程适合解决由于网络、磁盘等资源造成的I1 O阻塞问题，它利用了等待1/O 请求完成被阻塞而导致的 CPU 空闲时间。计算密集型的工作不适合使用多线程完成，因为计算需要 CPU 资源，如果 CPU 繁忙的话，使用多线程并没有更多地利用 CPU 空闲时间，反而由于 CPU 需要额外调度多线程，以及线程切换的各种开销，多线程的运行效率比单线程还要慢。
+   1. 多线程适合解决由于网络、磁盘等资源造成的I1 O阻塞问题，它利用了等待1/O 请求完成被阻塞而导致的 CPU 空闲时间。计算密集型的工作不适合使用多线程完成，因为计算需要 CPU 资源，如果 CPU 繁忙的话，使用多线程并没有更多地利用 CPU 空闲时间，反而由于 CPU 需要额外调度多线程，以及线程切换的各种开销，多线程的运行效率比单线程还要慢。
 
 ps: 多线程在 CPU密集型 GIL竞争 导致速度更慢（多线程单核没有GIL竞争）
 
