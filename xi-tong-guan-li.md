@@ -8,10 +8,9 @@
 
 4. 监控系统搭建（API监控，服务器监控）
 
-5. 集中式日志收集
+5. 集中式日志收集 （KIDS+BELK）
 
 6. 服务发现容器化编排
-
 
 ## Supervisor
 
@@ -21,11 +20,10 @@
 
 [运维管理工具的对比Puppet、Chef、Ansible和SaltStack、Fabric - CSDN博客](https://blog.csdn.net/zzq900503/article/details/80143740)
 
-1. Fabric发布版本，自动化精简输入指令 类似Makefile(shell 能做 Python）
+1. Fabric发布版本，自动化精简输入指令 类似Makefile\(shell 能做 Python）
 2. 机器多，需要控制建议使用 ansible 发布版本初始化服务器，成本比Fabric高一些
 
 ## Sentry
 
-[使用docker-compose运行错误收集工具Sentry | Pegasus' Blog](http://ningning.today/2016/10/18/python/docker-sentry/)
-
+[使用docker-compose运行错误收集工具Sentry \| Pegasus' Blog](http://ningning.today/2016/10/18/python/docker-sentry/)
 

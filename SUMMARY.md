@@ -19,5 +19,6 @@
   * [调试技巧](webkai-fa-zui-jia-shi-jian/diao-shi-ji-qiao.md)
   * [质量管理](zhi-liang-guan-li.md)
   * [安全策略](webkai-fa-zui-jia-shi-jian/an-quan-ce-lve.md)
+  * [异常处理](webkai-fa-zui-jia-shi-jian/yi-chang-chu-li.md)
   * [实战篇 python3](webkai-fa-zui-jia-shi-jian/shi-zhan-pian.md)
 

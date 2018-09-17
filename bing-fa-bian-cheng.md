@@ -14,8 +14,9 @@
 
 3. Gevent，tornado，ayncio
 
-4. golang，nodejs 异步方式 [https://time.geekbang.org/column/article/693](https://time.geekbang.org/column/article/693) 
-[swagger-api/swagger-node: Swagger module for node.js](https://github.com/swagger-api/swagger-node)
+4. golang，nodejs 异步方式 [https://time.geekbang.org/column/article/693](https://time.geekbang.org/column/article/693)  
+   [swagger-api/swagger-node: Swagger module for node.js](https://github.com/swagger-api/swagger-node)
+
 5. 爬虫
 
 ## 多线程
@@ -70,7 +71,7 @@ Asyncio： 1. 更底层 yield from （不需要通过raise来进行返回值）�
 其他：
 
 1. \[Python进阶：聊聊IO密集型任务、计算密集型任务，以及多线程、多进程\]\([https://zhuanlan.zhihu.com/p/24283040\](https://zhuanlan.zhihu.com/p/24283040%29\)
-2. 安全规范 [https://confluence.intra.knownsec.com/pages/viewpage.action?pageId=15798165](https://confluence.intra.knownsec.com/pages/viewpage.action?pageId=15798165)
+2. 安全规范 参考confluence
 
 
 
