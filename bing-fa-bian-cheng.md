@@ -15,7 +15,6 @@
 3. Gevent，tornado，ayncio
 
 4. golang，nodejs 异步方式 [https://time.geekbang.org/column/article/693](https://time.geekbang.org/column/article/693)  
-   [swagger-api/swagger-node: Swagger module for node.js](https://github.com/swagger-api/swagger-node)
 
 5. 爬虫
 
