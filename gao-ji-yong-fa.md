@@ -6,6 +6,7 @@
 4. decortor
 4. collections/functools
 
+
 info:「Fluent Python」
 
 
